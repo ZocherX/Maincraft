@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maincraft</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+    <script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+    <link rel="shortcut icon" href="img/item.png">
+</head>
+<body>
+    <header class="header">
+        <div class="container container_header" id="top">
+            <h1 class="logo__title">
+                <img src="img/logo.png" alt="Здесь логотип сайта" class="logo__img">
+                Maincraft
+            </h1>
+            <nav class="header__nav" id="menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#hero-block" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Об игре</a></li>
+                    <li class="nav__item"><a href="#video" class="nav__link">Видео</a></li>
+                    <li class="nav__item"><a href="#gallary" class="nav__link">Галерея</a></li>
+                    <li class="nav__item"><a href="#footer" class="nav__link">Об создателе</a></li>
+                </ul>
+            </nav>
+            <img src="img/logout.png" alt="" class="header__logout">  
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero-block" id="hero-block">
+            <div class="container container_hero-block">
+                <img class="photo__hero-block" src="img/photo.png" alt="">
+                <div class="hero-block__content">
+                    <h2 class="hero-block__title">Maincraft</h2>
+                    <p class="hero-block__text">Компьютерная инди-игра в жанре песочницы, созданная шведским программистом Маркусом Перссоном и выпущенная его студией Mojang AB. В 2009 году Перссон опубликовал начальную версию игры; в конце 2011 года была выпущена стабильная версия для компьютеров Windows, Linux и macOS с распространением через официальный сайт. В последующие годы Minecraft была портирована на мобильные устройства под управлением Android, iOS и Windows Phone; на игровые приставки PlayStation 3, PlayStation 4, PlayStation Vita, Xbox 360, Xbox One, New Nintendo 3DS, Nintendo Switch и Wii U; и другие платформы. В 2014 году корпорация Microsoft приобрела права на Minecraft вместе со студией Mojang AB за 2,5 миллиарда долларов. В 2017 году была выпущена мультиплатформенная версия игры, объединившая различные версии для разных устройств.</p>
+                    <button class="hero-block__btn">Узнать больше</button>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container container__about">
+                <h2 class="title__about">Об игре</h2>
+                <div class="about__content">
+                    <div class="skills__content">
+                        <h3 class="skills__title">Развивает:</h3>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <h4 class="skills__name">Воображение</h4>
+                                <div class="skills__full"><div class="skills__done skills__first"></div></div>
+                            </li>
+                            <li class="skills__item">
+                                <h4 class="skills__name">Реакцию</h4>
+                                <div class="skills__full"><div class="skills__done skills__second"></div></div>
+                            </li>
+                            <li class="skills__item">
+                                <h4 class="skills__name">Командную работу</h4>
+                                <div class="skills__full"><div class="skills__done skills__third"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+                        <img class="about__img" src="img/1fad8bcd6671592950d11ea34fa2bfca.jpg" alt="" class="about__img">
+                </div>
+            </div>
+        </section>
+        <section class="video" id="video">
+            <div class="container container_video">
+                <h2 class="video__title">Видео</h2>
+                <iframe class="video__video" src="https://www.youtube.com/embed/DfgZ8qRB6U8?si=94GPi2RYGSR57zHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="gallary" id="gallary">
+            <h2 class="gallary__title">Галерея</h2>
+            <ul class="gallary__list">
+                <li class="gallary__item">
+                    <a href="img/img1.png" class="gallary__link lightzoom">
+                        <img src="img/img1.png" alt="" class="gallary__img">
+                    </a>
+                </li>
+                <li class="gallary__item">
+                    <a href="img/img2.png" class="gallary__link lightzoom">
+                        <img src="img/img2.png" alt="" class="gallary__img">
+                    </a>
+                </li>
+                <li class="gallary__item">
+                    <a href="img/img4.png" class="gallary__link lightzoom">
+                        <img src="img/img4.png" alt="" class="gallary__img">
+                    </a>
+                </li>
+                <li class="gallary__item">
+                    <a href="img/img5.png" class="gallary__link lightzoom">
+                        <img src="img/img5.png" alt="" class="gallary__img">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="container container__footer">
+
+            <div class="footer__content">
+                <h2 class="footer__title">Сунцов Даниил</h2>
+                <h3 class="footer__text"> &copy 2023. Все права защищены.</h3>
+            </div>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a href="" class="footer__link">
+                            <img src="img/telegram.png" alt="" class="footer__img">
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a href="" class="footer__link">
+                        <img src="img/vk.png" alt="" class="footer__img">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true, overlayColor: 'black', isOverlayClickClosing: true,  overlayOpacity: '0.6'});
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+           $("#menu").on("click","a", function (event) {
+               event.preventDefault();
+               var id  = $(this).attr('href'),
+                   top = $(id).offset().top;
+               $('body,html').animate({scrollTop: top}, 1500);
+           });
+       });
+    </script>
+    <a href="#top" class="button__link">
+        <img src="img/free-icon-font-angle-up-3916898.png" alt="Button to top" class="button" >
+    </a>
+</body>
+</html>
